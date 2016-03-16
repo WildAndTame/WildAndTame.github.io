@@ -45,7 +45,7 @@
 			'color #{_duration(transition)} ease'
 		));
 		border-bottom: dotted 1px _palette(border2);
-		color: _palette(accent, bg);
+		color: _palette(accent, bg) !important;
 		text-decoration: none;
 
 		&:hover {
